@@ -43,7 +43,6 @@ async function displayVideo() {
 
     // return canvas data
     const capturedImage = canvas.toDataURL("image/jpeg")
-    console.log(capturedImage);
     return capturedImage
 }
 
